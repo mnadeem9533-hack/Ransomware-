@@ -10,11 +10,9 @@ encryption, C2 server communication, and full decryption capability.
 
 
 ┌─────────────────┐ HTTP/HTTPS ┌──────────────────┐ │ Ransomware │ ◄─────────────────────────► │ C2 Server │ │ Agent (Python) │ POST /beacon │ (Controller) │ │ (Target Host) │ POST /exfil │ (Attacker) │ └─────────────────┘ └──────────────────┘
-## Quick Start
 
-### 1. Install Dependencies
+Install Dependencies
 
-```bash
 pip install -r requirements.txt
 Generate RSA Keypair
 bash
